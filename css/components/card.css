@@ -1,0 +1,34 @@
+.cards{
+
+	border-top: 4px solid black;
+	padding: 40px;
+	display: flex;
+	justify-content: space-between;
+
+}
+
+.card{
+
+	display: flex;
+	width: 350px;
+	flex-direction: column;
+	text-align: center;
+	background: #808080;
+	border: 1px solid grey;
+	box-shadow: 5px 5px 10px black;
+	padding: 20px 10px;
+
+
+}
+
+.card>img{
+	margin: 0 auto;
+	height: 192px;
+}
+
+
+.cards p{
+
+	
+	font-family: 'Roboto', sans-serif;
+}

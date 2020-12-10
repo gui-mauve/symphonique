@@ -1,0 +1,48 @@
+.btn-red{
+	background-color: #ff00006b;
+	padding: 15px 20px;
+	color: white;
+	font-weight: bold;
+	text-decoration: none;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+	border: none;
+	border-radius: 4px;
+}
+
+.btn-red:hover{
+	background-color: white;
+	color: #DB5461;
+	border: 1px solid #DB5461;
+}
+
+
+.btn-red-nav{
+	background-color: #ff00006b;
+	padding: 15px 20px;
+	color: white;
+	font-weight: bold;
+	text-decoration: none;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+	border: none;
+	border-radius: 4px;
+	margin-right:20px;
+	margin-left:20px;
+	display: flex;
+	justify-content: flex-end;
+
+}
+
+.btn-red-nav:hover{
+	background-color: white;
+	color: #DB5461;
+	border: 1px solid #DB5461;
+}
+
+.button{
+	padding: 30px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}

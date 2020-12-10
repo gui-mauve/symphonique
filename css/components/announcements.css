@@ -1,0 +1,101 @@
+.announcements{
+	border-top: 4px solid black;
+	width: 500px auto;
+	height: auto;
+	padding: 150px;
+	padding-top: 10px;
+	padding-bottom: 50px;
+	display: block;
+	font-family: 'Lora', sans-serif;
+	font-weight: 20px;
+
+}
+
+
+.block-container{
+	box-sizing: border-box;
+	margin-bottom: 20px;
+
+}
+
+.box-body{
+	display: flex;
+	flex-direction: row;
+
+}
+
+.box-body > p{
+	padding-left: 15px;
+	padding-right: 10px;
+}
+
+.announcement-calendar{
+
+    padding: 20px;
+    border: none;
+    box-shadow: none;
+    border-bottom: 1px solid rgba(0,0,0,.05);
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.announcement-calendar .day{
+
+    font-size: 28px;
+    margin-bottom: -10px;
+    display: block;
+
+}
+.announcement-calendar .month{
+	text-transform: uppercase;
+    font-size: 14px;
+}
+
+.announcement-header{
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	font-weight: bold;
+	background: darkgrey;
+
+
+}
+
+.announcement-body{
+	padding: 20px;
+	box-sizing: border-box;
+	border: none;
+    font-size: 13px;
+    box-shadow: 0 5px 8px rgba(0,0,0,.075);
+    background: grey;
+
+}
+
+.announcement-footer{
+	background: darkgrey;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 500;
+	font-size: 20px;
+	display: flex;
+	justify-content: flex-end;
+	padding: 13px;
+	padding-left: 20px;
+
+}
+
+.announcement-footer-btn{
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+	text-decoration: italic;
+	margin-right: 10px;
+}
+
+.announcement-footer-btn:hover{
+	background: #f6f6f6;
+	color: grey;
+	padding: 4px;
+	box-shadow: 2px 2px rgba(0,0,0,.125);
+}

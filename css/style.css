@@ -1,0 +1,67 @@
+@import url("components/banner.css");
+@import url("components/button.css");
+@import url("components/card.css");
+@import url("components/container.css");
+@import url("components/form.css");
+@import url("components/footer.css");
+@import url("components/announcements.css");
+
+body{
+	margin: 0px;
+	padding: 0px;
+	background-color:rgba(10,10,10,0.8) !important;
+	color: white;
+}
+
+
+html{
+
+	position: relative;
+}
+
+
+img{
+	width: 150px;
+	border-radius: 50%;
+}
+
+.video{
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	border-top: 4px solid black;
+	border-bottom: 4px solid black;
+	padding-bottom:10px;
+
+}
+
+.video > h2{
+	font-family: 'Lora', sans-serif;
+}
+
+.romantique-content{
+	text-align: center;
+	padding: 150px;
+	padding-top: 45px;
+	padding-bottom: 10px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+}
+
+.classique-content{
+	text-align: center;
+	padding: 150px;
+	padding-top: 45px;
+	padding-bottom: 10px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+}
+
+.baroque-content{
+	text-align: center;
+	padding: 150px;
+	padding-top: 45px;
+	padding-bottom: 10px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+}
+

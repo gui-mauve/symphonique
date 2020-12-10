@@ -1,0 +1,18 @@
+.form{
+	font-family: 'Roboto', sans-serif;
+	text-align: center;
+}
+
+.form > h2{
+	
+	font-family: 'Lora', sans-serif;
+}
+
+.form > p{
+	font-family: 'Roboto', sans-serif;
+	font-weight: 500;
+}
+
+.typeform-widget{
+	overflow-y: hidden;
+}
